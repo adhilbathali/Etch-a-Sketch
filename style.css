@@ -1,0 +1,41 @@
+.grid-container, .hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.prompt-btn{
+    border: none;
+    padding: 10px 15px;
+    margin: 30px;
+    background-color: royalblue;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    box-shadow: 0 10px 0 0 rgba(0, 0, 0, 0.719);
+}
+
+.prompt-btn:active{
+    transform: scale(1.03);
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-container{
+    flex-direction: column;
+    width: 100vw;
+}
+
+.cell{
+    background-color: rgb(160, 207, 248);
+    color: #333;
+}
+
+.cell:hover{
+    background-color: rosybrown;
+}

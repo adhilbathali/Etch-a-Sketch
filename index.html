@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Toy</title>
+
+    <!-- css file -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- js file for dom manipulation -->
+    <script src="./script.js" defer></script>
+
+</head>
+<body>
+    <div class="hero-container">
+        <h1>Grids Corner</h1>
+        <p>This is a webpage where you can click the prompt button and enter the dimension of grid container which will will be reflected in the grid container.
+            you can hover through the pixels.   
+        </p>
+        <button class="prompt-btn" onclick="prompter()" >Click for prompt</button>
+        <div class="grid-container">
+            <template class="cell-template">
+                <div class="cell">
+                </div>
+            </template>
+        </div>
+    </div>
+</body>
+</html>
