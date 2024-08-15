@@ -35,7 +35,3 @@ html, body{
     background-color: rgb(160, 207, 248);
     color: #333;
 }
-
-.cell:hover{
-    background-color: rosybrown;
-}
